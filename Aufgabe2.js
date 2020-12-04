@@ -1,0 +1,53 @@
+$(document).ready(fertig);
+
+function fertig()
+{
+    $("#einblenden").click(
+        function()
+        {
+            $("div").show();
+        }
+    );
+    $("#ausblenden").click(
+        function()
+        {
+            $("div").hide();
+        }
+    );
+    $("#FadeOut").click(
+        function()
+        {
+            $(".kasten").fadeOut(3000);
+        }
+    );
+    $("#FadeIn").click(
+        function()
+        {
+            $(".kasten").fadeIn(3000);
+        }
+    );
+    $("#SlideDown").click(
+        function()
+        {
+            $(".kasten").slideUp(3000);
+        }
+    );
+    $("#SlideUp").click(
+        function()
+        {
+            $(".kasten").slideDown(3000);
+        }
+    );
+    $("#fadeoutbox").hover(
+        function()
+        {
+            $("#fadeoutbox").fadeOut(3000);
+        }
+    );
+    $("#slideupbox").hover(
+        function()
+        {
+            $("#slideupbox").slideUp(3000);
+        }
+    );
+}

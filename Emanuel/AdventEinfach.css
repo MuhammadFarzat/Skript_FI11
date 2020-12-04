@@ -1,0 +1,28 @@
+.box
+{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: crimson;
+    font-size: 50px;
+    font-weight: bolder;
+    height: 120px;
+}
+html
+{
+    background-color: green ;
+}
+.grid
+{
+	display: grid;
+	grid-template-columns: Repeat(6, 1fr);
+    grid-template-rows: Repeat(4, 1fr);
+}
+
+
+
+img {
+    height: 100px;
+
+}

@@ -1,0 +1,28 @@
+#aendern
+{
+	position: absolute;
+	top: 100px;
+	left: 400px;
+	font: 24px arial;
+}
+
+#farbe
+{
+	padding: 5px;
+}
+#down
+{
+	padding: 5px;
+}
+#up
+{
+	padding: 5px;
+}
+#left
+{
+	padding: 5px;
+}
+#right
+{
+	padding: 5px;
+}

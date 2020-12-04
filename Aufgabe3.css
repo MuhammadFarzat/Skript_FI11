@@ -1,0 +1,11 @@
+body
+{
+    margin: 100px;
+    background-color: antiquewhite;
+}
+li
+{
+    color: white;
+    background-color: black;
+    margin-right: 80%;
+}

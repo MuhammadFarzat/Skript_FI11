@@ -1,0 +1,14 @@
+.kasten
+{
+	background-color: #ea48a2;
+	color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: big;
+	margin: 20px;
+}
+
+#farbe, #animation
+{
+	padding: 5px;
+}

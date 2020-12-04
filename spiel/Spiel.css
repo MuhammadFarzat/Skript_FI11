@@ -1,0 +1,33 @@
+.box
+{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: deeppink;
+    font-size: 50px;
+    font-weight: bolder;
+    height: 150px;
+
+}
+.antwort
+{
+    background-color:  mediumturquoise;
+    margin: 10px;
+}
+html
+{
+    background-color: mediumturquoise;
+}
+.grid
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: Repeat(3, 1fr);
+}
+
+
+img {
+    height: 100px;
+
+}
